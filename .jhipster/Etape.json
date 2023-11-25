@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20231125122334",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "etape",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Etape",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "recette",
+      "otherEntityRelationshipName": "etapes",
+      "ownerSide": false,
+      "relationshipName": "recette",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}
